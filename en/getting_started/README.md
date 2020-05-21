@@ -17,6 +17,11 @@ To get the source files:
    ```
    git clone https://github.com/mavlink/qgroundcontrol.git --recursive
    ```
+   If you've already cloned the repository without using --recursive , you can add the submodules by going 
+   into the directory where your repo exists and running the command:
+   ```
+   git submodule update --init
+   ```
 2. Update submodules (required each time you pull new source code):
    ```
    git submodule update
